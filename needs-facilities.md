@@ -9,7 +9,7 @@ Scenario: Report visitor trends during a week of operation
   When system generates report at the end of week
   Then the Facilities Manager able to see number of visitors on
        each day of week in the form of a graph according to the
-       catogories like all, patients, visitors, doctors etc.
+       categories like all, patients, visitors, doctors etc.
 
 Scenario: Alert when seating capacity is full
 
