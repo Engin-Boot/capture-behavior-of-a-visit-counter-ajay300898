@@ -19,7 +19,8 @@ Scenario: Compute parking slots to reserve for visiting specialists
         vehicle tag at the entrance and the parking slot reservation
         system works fine and there is always some empty slots for
         parking.
-  When the vehicle 
+  When the vehicle enters through the entrance gate and reaches parking
+       area.
   Then the system automatically reserves a parking slot which is nearer
        to exit and the location to be parked is sent to both the system
        in parking area and the specialist.
