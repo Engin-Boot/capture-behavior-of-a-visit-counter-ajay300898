@@ -13,9 +13,9 @@ Scenario: Report visitor trends during a week of operation
 
 Scenario: Alert when seating capacity is full
 
-  Given There are limited seats and the seats occupied are marked as
-        occupied in the system and number of empty seats are updated
+  Given the seats are limited and the system marks the occupied seats
+        and updates number of free seats
         accordingly.
   When there are less than 10 percent seats are free and someone try
        to occupy an empty seat.
-  Then an alert is shown that seating capacity is full.
+  Then it shows an alert that seating capacity is full.
