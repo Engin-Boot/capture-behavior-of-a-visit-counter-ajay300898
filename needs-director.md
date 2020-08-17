@@ -6,7 +6,7 @@ Scenario: Show patient visits during working days and holidays
         there information uploaded and the system able to distinguish
         between different kinds of people enter the hospital and
         notes down the day of entry.
-  When The system is asked to generate the report of patient visits
+  When The system generates the report of patient visits
        during working days and holidays
   Then the software shows number of patients visited on working days
        and holidays in a pie chart and provides facility to check
