@@ -15,6 +15,12 @@ Scenario: Show patient visits during working days and holidays
 
 Scenario: Compute parking slots to reserve for visiting specialists
 
-  Given
-  When
-  Then
+  Given There is a facility to identify specialists by scanning there
+        vehicle tag at the entrance and the parking slot reservation
+        system works fine and there is always some empty solts for
+        parking.
+  When specialist vehicle is recognised at entrance and it reached
+       parking area
+  Then the system automatically reserves a parking slot which is nearer
+       to exit and the location to be parked is sent to both the system
+       in parking area and the specialist.
