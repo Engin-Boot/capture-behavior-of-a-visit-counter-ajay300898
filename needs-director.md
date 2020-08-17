@@ -22,5 +22,5 @@ Scenario: Compute parking slots to reserve for visiting specialists
   When the vehicle enters through the entrance gate and reaches parking
        area.
   Then the system automatically reserves a parking slot which is nearer
-       to exit and the location to be parked is sent to both the system
+       to exit and the parking location is sent to both the system
        in parking area and the specialist.
