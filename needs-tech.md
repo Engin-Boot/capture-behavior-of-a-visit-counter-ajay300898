@@ -5,7 +5,8 @@ that runs the visit-counter
 
   Given there is backup mechanism
   When server restarts due to some issues
-  Then recovery mechanism runs and the visit-counter is set to previous value.
+  Then recovery mechanism runs and the system sets visit-counter
+       to its previous value.
 
 Scenario: Reconcile counts if the sensor is offline for a while
 
